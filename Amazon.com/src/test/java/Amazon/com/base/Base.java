@@ -19,7 +19,7 @@ import Amazon.com.utility.ScreenShots;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class Base {
-WebDriver driver;
+protected WebDriver driver;
 Properties properties=new Properties();
 
 public Base() {

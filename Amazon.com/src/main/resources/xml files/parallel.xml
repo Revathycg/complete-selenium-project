@@ -1,0 +1,11 @@
+<suite name="testes" thread-count="6" parallel="tests">
+	<listeners>
+	<listener class-name="Amazon.com.listeners.ExtentReporter">
+			</listener>
+	</listeners>
+	<test name="testcase1">
+		<classes>
+			<class name="Amazon.com.tests.LoginTest"></class>
+		</classes>
+	</test>
+	</suite>

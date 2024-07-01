@@ -26,5 +26,5 @@ public class ScreenShots {
 		} catch (Exception e) {
 			e.getStackTrace();
 		}
-	}
+	}//added comment
 }
